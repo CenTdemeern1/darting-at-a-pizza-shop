@@ -1,0 +1,11 @@
+<body></body>
+<script type="text/javascript">
+console.stdlog = console.log.bind(console);
+console.logs = [];
+console.log = function(){
+    var arg=arguments[0];
+    document.body.innerText+=arg;
+    console.stdlog.apply(console, arguments);
+}
+</script>
+<script type="text/javascript" src="out.js"></script>
