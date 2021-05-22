@@ -17,7 +17,7 @@ List<int> range(int from, [int? to, int? step]){
 	return list;
 }
 
-main(List<String> args) {
+void main(List<String> args) {
 	if (args.length == 0) {
 		print("Usage: range {min} {max}");
 		print("Usage: range {max}");
