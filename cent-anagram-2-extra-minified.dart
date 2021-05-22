@@ -1,0 +1,1 @@
+import"dart:io";main()async{var file=File("words.txt");var contents=await file.readAsString();var words=contents.split("\r\n");for(var word in words){var reversedWord=word.split('').reversed.join();if(word==reversedWord){print("Anagram found: $word");}}}
