@@ -1,7 +1,7 @@
 // About Stalin Sort
 // Stalin Sort is a joke sorting algorithm that works like follows:
 // Stalin Sort iterates down the list, and checks of the sorted numbers are in order.
-// Any unsorted numbers are eliminated from the list, resulting in what is techinically a sorted list.
+// Any unsorted numbers are eliminated from the list, resulting in what is technically a sorted list.
 // It's just missing some elements...
 
 void main(List<String> args) {
